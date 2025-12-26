@@ -137,7 +137,7 @@ def delete_node(root, key):
     return root
 
 
-# function added according the task 1
+# function added according the task 2
 def min_tree_value(root: AVLNode):
     if root is None:
         return None

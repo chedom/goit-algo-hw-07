@@ -1,4 +1,4 @@
-from node import insert, min_tree_value
+from node import insert, sum_tree_value
 
 
 def main():
@@ -9,8 +9,8 @@ def main():
     for key in keys:
         root = insert(root, key)
 
-    min_value = min_tree_value(root)
-    print(f"Min value is: {min_value}")  # -4
+    sum_value = sum_tree_value(root)
+    print(f"Sum value is: {sum_value}")  # 135
 
 
 if __name__ == '__main__':
